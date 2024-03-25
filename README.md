@@ -4,7 +4,7 @@
 $ go test -test.v > out.txt
 ```
 
-Output:
+Example output:
 ```
  === RUN   TestFtToMet
     lenconv_test.go:13: Convert random: 0 Ft. to Meter == 0 Meter
