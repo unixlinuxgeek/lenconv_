@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-// Модульный тест проверяет работу метода FtToMet
+// Модульный тест проверяет работу функций FtToMet
 func TestFtToMet(t *testing.T) {
 	r := float64(rand.Intn(10))
 	res := r / 3.281
@@ -19,7 +19,7 @@ func TestFtToMet(t *testing.T) {
 	}
 }
 
-// Модульный тест проверяет работу метода MetToFt
+// Модульный тест проверяет работу функций MetToFt
 func TestMetToFt(t *testing.T) {
 	r := float64(rand.Intn(10))
 	res := r * 3.281
