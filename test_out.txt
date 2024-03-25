@@ -1,10 +1,10 @@
 === RUN   TestFtToMet
-    length_test.go:13: Convert random: 1 Ft. to Meter == 0.30478512648582745 Meter
-    length_test.go:16: TestFtToMet Passed!!!
+    lenconv_test.go:13: Convert random: 4 Ft. to Meter == 1.2191405059433098 Meter
+    lenconv_test.go:16: TestFtToMet Passed!!!
 --- PASS: TestFtToMet (0.00s)
 === RUN   TestMetToFt
-    length_test.go:27: Convert random: 8 Met to Ft. == 26.248 Ft.
-    length_test.go:30: TestMetToFt Passed!!!
+    lenconv_test.go:27: Convert random: 1 Met to Ft. == 3.281 Ft.
+    lenconv_test.go:30: TestMetToFt Passed!!!
 --- PASS: TestMetToFt (0.00s)
 PASS
-ok  	github.com/unixlinuxgeek/The_Go_Programming_Language_Exercises/2.2/length	0.002s
+ok  	github.com/unixlinuxgeek/lenconv	0.002s

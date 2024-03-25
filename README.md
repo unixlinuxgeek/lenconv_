@@ -1,5 +1,12 @@
+### Run test
+
 ```
-=== RUN   TestFtToMet
+$ go test -test.v > out.txt
+```
+
+Output:
+```
+ === RUN   TestFtToMet
     lenconv_test.go:13: Convert random: 0 Ft. to Meter == 0 Meter
     lenconv_test.go:16: TestFtToMet Passed!!!
 --- PASS: TestFtToMet (0.00s)
